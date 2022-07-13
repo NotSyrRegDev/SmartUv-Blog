@@ -2,12 +2,12 @@
 
 ### Landing Home Page
 
-![N|Solid](https://i.ibb.co/n3xdXhG/Azuransi-Website.png)
+![N|Solid](https://i.ibb.co/9cxPMVb/Smart-Uv-Homepage.png)
 
 
 ### Admin Dashboard Page
 
-![N|Solid](https://i.ibb.co/n3xdXhG/Azuransi-Website.png)
+![N|Solid](https://i.ibb.co/KsSQ0Jx/Smart-Uv-Admin.png)
 
 
 SmartUv is an content management system (CMS) blog
