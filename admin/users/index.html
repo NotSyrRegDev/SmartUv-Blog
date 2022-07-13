@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Area - Users</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/myUtitly.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+
+<body>
+    
+
+    
+    <!-----------------NAVBAR------------------->
+    <div class="cu__container">
+        <nav id="navbar--smart-uv" >
+            <div class="logo-smart-uv__div">
+                <img src="../../images/rollei.svg" alt="" class="logo-svg">
+            </div>
+        
+          <ul class="ul-item__flex" >
+            <i class="fas fa-user-circle"></i>
+               
+                <div class="d-flex align-center" style="position: relative;" >
+                   
+                    <img src="../../images/seth-doyle-B3VWevRn1oU-unsplash.jpg" alt="" class="user-avatar__img">
+                   
+                    <p class="user-name__navbar mr-1">Lafbia</p>
+                    <i class="fas fa-chevron-down mr-1 text-black" id="dropdown--show" ></i>
+                  <div class="pos-drop-a" style="position: absolute; top: 40px; left: 20%;">
+                    <li><a style="position: absolute; top: 5px; left: 20%;" href="">Profile</a></li>
+                  <li><a href="" style="position: absolute; top: 40px; "  >Home</a></li>  
+                  </div>
+                   
+                </div>
+                
+               
+            <!-- <a href="sign-up.html"> <button class="btn-signup">Signup</button> </a>   
+             <a href="login.html"><button class="btn-login">Login</button> </a>  -->
+            </ul>
+
+            <!-- <div class="bar-smart-uv__div" id="clicked--bar" >
+                <div class="bar--box"></div>
+                <div class="bar--box"></div>
+                <div class="bar--box"></div>
+            </div> -->
+
+            
+            </nav>
+            <!-- <div class="full-screen__div">
+                <li><a href="">HOME</a> > </li>
+                <li><a href="">POSTS</a> > </li>
+                <li><a href="">EVENTS</a> > </li>
+            </div> -->
+    </div>
+ 
+ <!-----------------END NAVBAR------------------->
+
+
+
+    <!----------------------------MAIN DASHBOARD POSTS--------------------------------->
+
+    <section class="main-dashboard__posts">
+        <div class="dashboard--main-page">
+            <div class="sidebar--right__dashboard">
+                <div class="m-3">
+
+                    
+                    <div class="d-flex align-center text-white mt-4 dashbaord-a__sidebar">
+                        <i class="fas fa-chevron-right mr-2"></i>
+                        <a href="../users/index.html" class="link-dashboard-a">Users</a> 
+                     
+                        
+                    </div>
+                    
+                    <div class="d-flex align-center text-white mt-4 dashbaord-a__sidebar">
+                        <i class="fas fa-chevron-right mr-2"></i>
+                        <a href="../posts/index.html" class="link-dashboard-a">Posts</a>
+                    </div>
+                    
+                    <div class="d-flex align-center text-white mt-4 dashbaord-a__sidebar">
+                        <i class="fas fa-chevron-right mr-2"></i>
+                        <a href="../events/index.html" class="link-dashboard-a">Events</a>
+                    </div>
+                    
+                    <div class="d-flex align-center text-white mt-4 dashbaord-a__sidebar">
+                        <i class="fas fa-chevron-right mr-2"></i>
+                        <a href="../articles/index.html" class="link-dashboard-a">Articles</a>
+                    </div>
+                    
+                   
+
+
+                </div>
+            </div>
+            <div class="main-content__dashboard">
+          <div class="">
+              <div class="">
+                <div class="d-flex m-3">
+                 <a href="./create.html">    <button class="btn-dashboard">Add User</button>  </a> 
+                </div>
+                <div class="mt-5"></div>
+                <table>
+                    <thead>
+                        <th>Num</th>
+                        <th>Username</th>
+                        <th>Role</th>
+                        
+                        <th>Published Status</th>
+                        <th colspan="3">Action</th>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Awa Linter</td>
+                            <td>user</td>
+                           
+                            <td>Yes</td>
+                            <td><a href="#" class="edit">edit</a></td>
+                            <td><a href="#" class="delete">delete</a></td>
+                            <td><a href="#" class="publish">publish</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Awa Linter</td>
+                            <td>admin</td>
+                          
+                            <td>Yes</td>
+                            <td><a href="#" class="edit">edit</a></td>
+                            <td><a href="#" class="delete">delete</a></td>
+                            <td><a href="#" class="publish">publish</a></td>
+                        </tr>
+
+
+                        
+                    </tbody>
+                </table>
+
+                      
+                     
+
+
+                  </div>
+              </div>
+          </div>
+        </div>
+    </section>
+
+
+
+    <!----------------------------END MAIN DASHBOARD POSTS--------------------------------->
+
+
+    <script> 
+        document.getElementById('dropdown--show').addEventListener('click' , showDropedDown);
+           function showDropedDown() {
+                document.querySelector('.pos-drop-a').classList.toggle('show-dropdown__list');
+           }
+      </script>
+
+
+
+</body>
+</html>
